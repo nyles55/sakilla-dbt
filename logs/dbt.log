@@ -1,0 +1,30 @@
+[0m19:07:06.868319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027DF24156A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027DF2ED1810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027DF00716D0>]}
+
+
+============================== 19:07:06.874507 | 680066ae-cd9a-4c23-a33c-da9463b0ac4d ==============================
+[0m19:07:06.874507 [info ] [MainThread]: Running with dbt=1.10.13
+[0m19:07:06.875249 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'None', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\anton\\.dbt', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'invocation_command': 'dbt init', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'use_experimental_parser': 'False'}
+[0m19:07:06.898276 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\anton\.dbt
+[0m19:08:21.421083 [debug] [MainThread]: Starter project path: C:\Users\anton\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m19:08:21.456826 [info ] [MainThread]: 
+Your new dbt project "sakilla_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:08:21.458123 [info ] [MainThread]: Setting up your profile.
+[0m19:10:31.201258 [info ] [MainThread]: Profile sakilla_dbt written to C:\Users\anton\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:10:31.202574 [debug] [MainThread]: Command `dbt init` succeeded at 19:10:31.202443 after 204.49 seconds
+[0m19:10:31.202935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027DF46128B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027DF45E7890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027DF4579BF0>]}
+[0m19:10:31.203328 [debug] [MainThread]: Flushing usage events
+[0m19:10:31.910712 [debug] [MainThread]: An error was encountered while trying to flush usage events
